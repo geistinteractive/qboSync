@@ -1,7 +1,4 @@
-fm-files/Archive
-fm-files/build/staging
-fm-files/build/deliverable
-fmQBO.fmp12
-fmQBODeveloper.fmp12
-fmQBODeveloper OPENER.fmp12
+staging
+deliverable
 Import.log
+Log.fmp12
