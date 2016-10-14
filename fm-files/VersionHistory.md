@@ -1,6 +1,6 @@
 ### 2.0.1
 
-released 10/11/2016
+released 10/13/2016
 
   - bug fixes:
     - minor interface issues
@@ -9,3 +9,4 @@ released 10/11/2016
 	- add field validation to Item table, to match QBO's validation
 	- re-organized fields on Item layouts
 	- correct data in QBOEntity table
+	- Item expense account isn't set
