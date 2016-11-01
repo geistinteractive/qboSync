@@ -13,7 +13,7 @@ released 11/1/2016
   - bug fixes:
     - blank Invoice created when sync failed due to Inactive Customer not being downloaded
       - this bug may have shown up in other scenarios as well
-    - 
+    - Sync fails to Get more than the Batch Size
 
 
 ### 2.0.1
