@@ -10,10 +10,13 @@ released 11/1/2016
       - also document a way to download Invoices without linking them to a Customer
     - move Validate BaseElements Plugin script to Public folder
 	- add "button" script to validate plugin, and always show the status
+    - add config option to prevent getting any data from QBO that was modified before a specified date
+    - allow the last get timestamp to be changed, which can limit the data to get from QBO on a per-entity basis
   - bug fixes:
     - blank Invoice created when sync failed due to Inactive Customer not being downloaded
       - this bug may have shown up in other scenarios as well
     - Sync fails to Get more than the Batch Size
+    - last get timestamp is always displayed in the timezone of the computer that did the sync (as opposed to the send timestamp which correctly showed the time in the current users timezone)
 
 
 ### 2.0.1
