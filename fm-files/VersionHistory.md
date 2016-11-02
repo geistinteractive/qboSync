@@ -1,6 +1,6 @@
 ## 2.1.0
 
-released 11/1/2016
+released 11/2/2016
 
   - enhancements:
     - add script comments to config scripts
@@ -17,6 +17,7 @@ released 11/1/2016
       - this bug may have shown up in other scenarios as well
     - Sync fails to Get more than the Batch Size
     - last get timestamp is always displayed in the timezone of the computer that did the sync (as opposed to the send timestamp which correctly showed the time in the current users timezone)
+    - don't process children if parent's Get script generates an error
 
 
 ### 2.0.1
