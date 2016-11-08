@@ -1,3 +1,16 @@
+## 2.2.0
+
+released 11/8/2016
+
+  - enhancements:
+    - add an FM13 compatible interface file
+    - improved window handling when Sync is started from an external file
+      - will now show the sync progress and hide itself when done
+    - add splashscreen style layout for when fmQBO2 is accessed from an external file
+  - bug fixes:
+    - deleted list items are displayed as their primary key
+    - value lists can't be accessed from external file
+
 ## 2.1.0
 
 released 11/2/2016
