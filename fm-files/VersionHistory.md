@@ -8,8 +8,9 @@ released 11/8/2016
       - will now show the sync progress and hide itself when done
     - add splashscreen style layout for when fmQBO2 is accessed from an external file
   - bug fixes:
-    - deleted list items are displayed as their primary key
+    - deleted list items are displayed as their primary key from related records
     - value lists can't be accessed from external file
+
 
 ## 2.1.0
 
