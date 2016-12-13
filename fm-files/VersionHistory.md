@@ -6,6 +6,7 @@ unreleased
     - qbo_id in TaxCode is failing validation on GET
     - $$QBOSync_running in qbo_send auto-enter calculation does NOT work with external files
 	- keeps getting same records from QBO
+	- folder ending with .fmp12 causes Mac to display icon not folder #82
 
 
 ## 2.2.0
