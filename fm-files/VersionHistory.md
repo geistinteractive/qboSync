@@ -5,8 +5,10 @@ unreleased
   - bug fixes:
     - qbo_id in TaxCode is failing validation on GET
     - $$QBOSync_running in qbo_send auto-enter calculation does NOT work with external files
-	- keeps getting same records from QBO
-	- folder ending with .fmp12 causes Mac to display icon not folder #82
+    - keeps getting same records from QBO
+    - folder ending with .fmp12 causes Mac to display icon not folder
+    - Deleting fails if the record is already gone
+
 
 
 ## 2.2.0
@@ -34,7 +36,7 @@ released 11/2/2016
       - to accommodate this change, am now saving the qbo_id after saving other fields
       - also document a way to download Invoices without linking them to a Customer
     - move Validate BaseElements Plugin script to Public folder
-	- add "button" script to validate plugin, and always show the status
+    - add "button" script to validate plugin, and always show the status
     - add config option to prevent getting any data from QBO that was modified before a specified date
     - allow the last get timestamp to be changed, which can limit the data to get from QBO on a per-entity basis
   - bug fixes:
@@ -53,8 +55,8 @@ released 10/14/2016
     - minor interface issues
     - normalize Accounts table occurrence naming
     - remove link to open an Item in QBO from iPad and iPhone layout (this feature no longer works)
-	- add field validation to Item table, to match QBO's validation
-	- re-organized fields on Item layouts
-	- correct data in QBOEntity table
-	- Item expense account isn't set
-	- abort sync if the company changes
+    - add field validation to Item table, to match QBO's validation
+    - re-organized fields on Item layouts
+    - correct data in QBOEntity table
+    - Item expense account isn't set
+    - abort sync if the company changes
