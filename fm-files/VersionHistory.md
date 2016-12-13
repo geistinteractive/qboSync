@@ -1,3 +1,13 @@
+## 2.2.1
+
+unreleased
+
+  - bug fixes:
+    - qbo_id in TaxCode is failing validation on GET
+    - $$QBOSync_running in qbo_send auto-enter calculation does NOT work with external files
+	- keeps getting same records from QBO
+
+
 ## 2.2.0
 
 released 11/8/2016
