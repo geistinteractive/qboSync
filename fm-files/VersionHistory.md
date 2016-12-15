@@ -1,14 +1,16 @@
-## 2.2.1
+## 2.3.0
 
 unreleased
 
+  - enhancements:
+    - allow syncing of shipping fields on an Invoice
   - bug fixes:
     - qbo_id in TaxCode is failing validation on GET
     - $$QBOSync_running in qbo_send auto-enter calculation does NOT work with external files
     - keeps getting same records from QBO
     - folder ending with .fmp12 causes Mac to display icon not folder
     - Deleting fails if the record is already gone
-
+    - Don't create blank Invoice lines
 
 
 ## 2.2.0
