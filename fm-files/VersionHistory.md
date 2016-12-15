@@ -13,6 +13,7 @@ unreleased
     - Don't create blank Invoice lines
     - qbo_error not always cleared after successful get
     - $$QBOSync_ErrorCaptureWasOff isn't cleared by sync scripts
+    - misleading error message returned when failed to save QBO data
 
 
 ## 2.2.0
