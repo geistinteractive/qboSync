@@ -27,8 +27,8 @@ Mostly just documenting stuff I think other developers working on this file shou
 1. $n is a 0-based javascript iterator and $i is a 1-based FileMaker iterator.
    * this concept was introduced as a refactor, so it's possible some old code doesn't follow this standard
 2. A "Dispatch" script is one that calls a different script based on the current entity. My goal was to keep these as simple as possible. This is a config script for developers of fmQBO2.fmp12 (not for end-users, unless they're adding entities to sync, in which case I consider them a developer of fmQBO2.fmp12)
-3. Various UI scripts determine which layout to go to based on the layout name, with a test like:
-     `RightWords ( Get ( LayoutName ) ; 1 ) = "iPad"`
+3. Various UI scripts determine which layout to go to based on the layout name, with a test like:  
+   `RightWords ( Get ( LayoutName ) ; 1 ) = "iPad"`
 4. Invoice layout uses an OnCommit Trigger to update the `qbo_send` value, which wont automatically be set to true when a users modifies an InvoiceItem record. It also summarizes InvoiceItems data and stores in the Invoice table. This same  process will have to be replicated in an end-users solution if they are using fmQBO2 for syncing only (and not for it's UI).
 
 
@@ -36,8 +36,8 @@ Mostly just documenting stuff I think other developers working on this file shou
 
 1. `Get From QBO and Copy Response` script, allows easy access to QBO's version of the record you are currently viewing in the UI. You have to find the script in Script Workspace to run it.
 2. `QBOEntity` has a "Dev Tools" popover with a few options:
-   1. Enable/Disable Logging
-      This is a _very_ simple system that stores QBO requests and responses in a repeating global variable. You are expected to view the log via the Data Viewer (or copy it for pasting into a text editor). This is really only designed by use for use by us, which is why I'm not mentioning it in the version history.
+   1. Enable/Disable Logging  
+      This is a _very_ simple system that stores QBO requests and responses in a repeating global variable. You are expected to view the log via the Data Viewer (or copy it for pasting into a text editor). This is really only designed for use by us, which is why I'm not mentioning it in the version history.
    2. Clear Log Data
-   3. Delete ALL Synced Data
+   3. Delete ALL Synced Data  
       Useful for switching between test companies while developing; I've been having to switch between a company with shipping enabled and one with it disabled, this script has been useful for that.
