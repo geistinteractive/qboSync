@@ -11,6 +11,8 @@ unreleased
     - folder ending with .fmp12 causes Mac to display icon not folder
     - Deleting fails if the record is already gone
     - Don't create blank Invoice lines
+    - qbo_error not always cleared after successful get
+    - $$QBOSync_ErrorCaptureWasOff isn't cleared by sync scripts
 
 
 ## 2.2.0
