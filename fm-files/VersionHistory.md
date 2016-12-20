@@ -1,6 +1,6 @@
 ## 2.3.0
 
-unreleased
+released 12/9/2016
 
   - enhancements:
     - allow syncing of Invoice shipping fields
