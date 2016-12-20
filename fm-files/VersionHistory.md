@@ -3,7 +3,7 @@
 unreleased
 
   - enhancements:
-    - allow syncing of shipping fields on an Invoice
+    - allow syncing of Invoice shipping fields
   - bug fixes:
     - qbo_id in TaxCode is failing validation on GET
     - $$QBOSync_running in qbo_send auto-enter calculation does NOT work with external files
