@@ -1,3 +1,14 @@
+## 2.4.0
+
+released 02/03/2017
+
+  - enhancements:
+    - Support Payments Sync (no UI in the demo file; just sync)
+  - bug fixes:
+    - Get ( children ) script, $idsToDelete SQL would fail if $idsProcessed was empty
+    - Get ( children ) script, process deleted lines section could get stuck in the loop under certain circumstances
+
+
 ## 2.3.0
 
 released 12/9/2016
